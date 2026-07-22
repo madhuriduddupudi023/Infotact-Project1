@@ -1,3 +1,4 @@
+-- Create telemetry table to store container sensor data
 CREATE TABLE CONTAINER_TELEMETRY (
     Timestamp TIMESTAMP,
     Container_ID VARCHAR,
