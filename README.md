@@ -31,3 +31,17 @@ telemetry_table.sql
 telemetry_mapping_sheet.xlsx
 data_dictionary.xlsx
 validation_queries.sql
+
+
+
+
+DATABASE CREATION STEPS:
+
+The database setup for the AtmoSync project was completed in the following sequence:
+
+1.Created the project database (`atmosync_db`).
+2.Created the `warehouse` schema.
+3.Created the `container_telemetry` table.
+4.Prepared the telemetry mapping sheet.
+5.Created the data dictionary.
+6.Verified the database objects using validation SQL queries.
