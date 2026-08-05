@@ -45,3 +45,33 @@ The database setup for the AtmoSync project was completed in the following seque
 4.Prepared the telemetry mapping sheet.
 5.Created the data dictionary.
 6.Verified the database objects using validation SQL queries.
+
+
+## Project Files
+
+- warehouse_schema.sql – Creates the database and warehouse schema.
+- telemetry_table.sql – Creates the container_telemetry table.
+- data_loading.sql – Loads the telemetry dataset into Snowflake.
+- validation_queries.sql – Verifies data loading and database objects.
+- data_quality_checks.sql – Performs data quality validation checks.
+- telemetry_mapping_sheet.xlsx – Source-to-target mapping document.
+- data_dictionary.xlsx – Describes all table columns.
+- data/ – Telemetry dataset used for loading.
+
+## Execution Workflow
+
+1. Create the database and schema.
+2. Create the telemetry table.
+3. Load the telemetry dataset.
+4. Execute validation queries.
+5. Perform data quality checks.
+
+## Project Status
+
+- Database Created
+- Warehouse Schema Created
+- Telemetry Table Created
+- Dataset Loaded Successfully
+- Data Validation Completed
+- Data Quality Checks Completed
+- Documentation Completed
